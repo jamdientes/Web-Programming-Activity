@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+     <title>Web Programming </title>
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../vendor/metisMenu/metisMenu.min.js"></script>
+    <script src="../vendor/raphael/raphael.min.js"></script>
+    <script src="../vendor/morrisjs/morris.min.js"></script>
+    <script src="../data/morris-data.js"></script>
+    <script src="../dist/js/sb-admin-2.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+    <link href="../vendor/morrisjs/morris.css" rel="stylesheet">
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js">
+        </script>
+  
+
+
+   
+        <style>
+            body{
+                background-image: url("back.jpg");
+                background-size: cover;
+            }
+       
+        </style>
+    </head>
+    
+   <body>
+    
+   
+                 <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    
+                </div>
+            </div>
+
+        -->
+        
+        <div id="page-wrapper" style="min-height:400px;"> 
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-30">
+                       <div class="panel panel-default">
+                           <div class="panel-heading"><h2><b>Sign up </b></h2></div>
+                        <form class="form-horizontal">
+                   
+                        <form method = "POST" action = "Medupdate.php"> 
+                        
+                            <div class="form-group">
+                                <label for="DocFN" class="col-sm-2 control-label">Name</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="Doc_FN" name="Doc_FN" placeholder="Complete Name" required="fillout First name">
+                                    </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="DocLN" class="col-sm-2 control-label">Username</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="Doc_LN" name="Doc_LN" placeholder="Username" required="fillout Last name">
+                                    </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="DocMN" class="col-sm-2 control-label">Password</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="Doc_MN" name="Doc_MN" placeholder="Password" required="fillout Middle name">
+                                    </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="DocEmail" class="col-sm-2 control-label">Confirm Password</label>
+                                    <div class="col-sm-5">
+                                        <input type="text" class="form-control" id="Doctor_Email" name="Secretary_Email" placeholder="Confirm Password" required="E-mail">
+                                    </div>
+                            </div>
+                            
+                           <form> 
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Date of Birth <br> 
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name ="month">
+                             <option value = "month"> Month </option>
+                             <option value = "January"> January </option>
+                             <option value = "Febuary"> Febuary </option>
+                             <option value = "March"> March </option>
+                               <option value = "April"> April </option>
+                               <option value = "May"> May </option>
+                               <option value = "June"> June </option>
+                               <option value = "July"> July </option>
+                               <option value = "August"> August </option>
+                               <option value = "October"> October </option>
+                               <option value = "November"> November </option>
+                               <option value = "December"> December </option>
+                               
+                               
+                               </select>
+                               
+                            </form>
+                            </div>
+                                <center>
+                                     <button type="button" class="btn btn-default">
+                                        <div class="col-sm-2">
+                                        <a href="login.html">Next</a>
+                                            
+                                        </div>
+                                    </button>
+                                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#mymodal"><a href="login.html"></a>Cancel</button>
+                                    <div class="modal fade" id="mymodal">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h3>Warning!</h3>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>Are you sure to cancel?</p>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-success" data-dismiss="modal">NO</button>
+                                                    <button type="button" class="btn btn-danger">
+                                                        <a href="login.html">YES</a>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                    </div>
+                                </center>
+                     
+                            
+                        </form>
+                </form>
+                        </div>
+                    </div>
+                  
+                </div>
+               
+            </div>
+            
+        </div>
+
+     
+
+   
+
+</body>
+
+</html>
